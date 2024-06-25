@@ -14,8 +14,8 @@ crontab -e
 
 如果启用了二进制日志（binlog），在进行完全备份后，可以考虑保留二进制日志，以支持基于时间点的恢复（PITR）
 
-```sql
-
+```
+//sql exe:
 FLUSH LOGS;
 
 ```
